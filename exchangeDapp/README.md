@@ -4,7 +4,7 @@ npm i truffle -g
 2.初始化
 truffle init
 
-3.配置truffle-config.js ，连接本地启动的ganache
+3.配置truffle-config.js ，连接本地启动的ganache，并配置metamask网络创建账户
  development: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 7545,            // Standard Ethereum port (default: none)
