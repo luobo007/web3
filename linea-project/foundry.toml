@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[rpc_endpoints]
+linea-testnet = "https://linea-sepolia.infura.io/v3/052b0218c9c44d429e9aa614fe4d84d2"
+linea-mainnet = "https://linea-mainnet.infura.io/v3/052b0218c9c44d429e9aa614fe4d84d2"
+
+[etherscan]
+linea-testnet = { key = "${LINEASCAN_API_KEY}", url = "https://api-testnet.lineascan.build/api" }
+linea-mainnet = { key = "${LINEASCAN_API_KEY}", url = "https://api.lineascan.build/api" }
